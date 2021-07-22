@@ -201,6 +201,7 @@ export const getBloggerPicPostListController: GetBloggerPicPostListHandler = asy
       description: picPosts.description,
       thumbnail: picPosts.thumbnail,
       UserId: picPosts.UserId,
+      User: picUser,
       Posts: computedPosts,
     });
   } catch (e) {
