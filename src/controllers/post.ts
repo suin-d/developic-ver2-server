@@ -138,7 +138,7 @@ export const submitPostController: RequestHandler = async (req, res, next) => {
     if (!post) return res.status(400).send('게시글을 찾을 수 없습니다.');
     await post.update({
       allowComment: req.body.allowComment,
-      isPrimary: req.body.isPublic,
+      isPublic: req.body.isPublic,
       thumbnail: req.body.thumbnail,
       summary: req.body.summary,
       license: req.body.license,
