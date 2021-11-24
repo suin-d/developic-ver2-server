@@ -52,12 +52,12 @@ Post.init(
     allowComment: {
       type: DataTypes.TINYINT(),
       allowNull: false,
-      defaultValue: 0,
+      defaultValue: 1,
     },
     license: {
       type: DataTypes.STRING(128),
       allowNull: false,
-      defaultValue: 'open',
+      defaultValue: 'Copyright © All Rights Reserved',
     },
     summary: {
       type: DataTypes.STRING(256),
