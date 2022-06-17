@@ -37,6 +37,7 @@ if (prod) {
         'https://www.developic.shop',
         'https://developic.shop',
         'https://developic.netlify.app',
+        'developic2-client.vercel.app',
       ],
       credentials: true,
     })
